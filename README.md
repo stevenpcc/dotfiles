@@ -17,5 +17,4 @@ source ~/bashrc
 
 ```bash
 updatedotfiles
-source ~/bashrc
 ```

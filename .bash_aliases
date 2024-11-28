@@ -1,6 +1,6 @@
 # Get latest vimrc from github
 alias updatevim="sudo git -C /etc/vim pull"
-alias updatedotfiles="git -C ~/dotfiles pull"
+alias updatedotfiles="git -C ~/dotfiles pull && source ~/.bashrc"
 
 nginx_safe_reload() {
     if sudo nginx -t; then
