@@ -10,10 +10,12 @@ sudo git clone https://github.com/stevenpcc/dotfiles.git ~/
 
 ```bash
 ~/dotfiles/setup.sh
+source ~/bashrc
 ```
 
 ### 3. Update when needed
 
 ```bash
 updatedotfiles
+source ~/bashrc
 ```
