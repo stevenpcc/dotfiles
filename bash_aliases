@@ -1,3 +1,6 @@
+# vi mode for bash
+set -o vi
+
 # Get latest vimrc from github
 alias updatevim="sudo git -C /etc/vim pull"
 alias updatedotfiles="git -C ~/.dotfiles pull && source ~/.bashrc"
