@@ -1,3 +1,5 @@
+export EDITOR=vim
+
 # vi mode for bash
 set -o vi
 
