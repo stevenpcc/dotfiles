@@ -3,7 +3,7 @@
 ### 1. Clone into the main repo in your user dir
 
 ```bash
-sudo git clone https://github.com/stevenpcc/dotfiles.git ~/dotfiles
+git clone https://github.com/stevenpcc/dotfiles.git ~/.dotfiles
 ```
 
 ### 2. Run the setup script

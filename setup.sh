@@ -14,5 +14,5 @@ create_symlink() {
 }
 
 # Define the files and their target locations
-create_symlink "$HOME/dotfiles/.bash_aliases" "$HOME/.bash_aliases"
-create_symlink "$HOME/dotfiles/.inputrc" "$HOME/.inputrc"
+create_symlink "$HOME/.dotfiles/bash_aliases" "$HOME/.bash_aliases"
+create_symlink "$HOME/.dotfiles/inputrc" "$HOME/.inputrc"
