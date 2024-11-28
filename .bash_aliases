@@ -12,6 +12,8 @@ nginx_safe_reload() {
 }
 
 
+alias useroot="sudo -i -u root"
+
 alias ngcheck='sudo nginx -t'
 alias ngrestart='nginx_safe_reload'
 alias ngstop='sudo systemctl stop nginx'
